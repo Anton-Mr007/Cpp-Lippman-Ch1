@@ -86,7 +86,35 @@ CMakeLists.txt.user*
 *.pro.user*
 
 # Папки сборки
+build/
 biuld/
 *-build-*/
 Debug/
 Release/
+
+# Дополнительные правила для Qt проектов
+
+[Bb]uild/
+[Bb]uild-*/
+*-[Bb]uild/
+
+[Dd]ebug/
+[Rr}elease/
+
+Makefile
+Makefile.Debug
+Makefile.Realese
+
+*.o
+*.obj
+*.moc
+*.ui
+*.qrc
+
+*.creator.user
+*.creator.user.*
+*.files
+*.includes
+*.config
+*.cflags
+*.cxxflags
